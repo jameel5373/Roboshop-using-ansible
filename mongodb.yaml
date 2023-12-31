@@ -1,5 +1,5 @@
 - name: mongodb
-  hosts: mongodb
+  hosts: 44.203.95.104
   become: yes
   tasks:
   - name: setup mongodb repo
